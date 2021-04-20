@@ -1,0 +1,67 @@
+server:
+  port: 20004
+  http2:
+    enabled: true
+  compression:
+    enabled: true
+  error:
+    whitelabel:
+      enabled: false
+
+
+spring:
+  application:
+    name: platform-gateway
+  redis:
+    database: 1
+    host: 192.168.0.61
+    port: 6379
+    #password: 123456
+
+  zipkin:
+    base-url: http://192.168.0.61:9411/
+    locator:
+      discovery:
+        enabled: true
+      # 以HTTP上传数据到Zipkin
+      # WHY? bus依赖项导入了rabbitmq的依赖项，zipkin会默认使用mq
+    sender:
+      type: web
+    sleuth:
+      sampler:
+        probability: 1
+
+
+  cloud:
+    gateway:
+      routes:
+        - id: lottery-service-websockets
+          uri: lb:ws://fun-box-lottery-service
+          predicates:
+            - Path=/webSocket/**
+
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+
+
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20000/eureka/
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false

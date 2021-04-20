@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/platform/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/account/fun-box-account-api/fun-box-account-api.iml" filepath="$PROJECT_DIR$/domain/fun/account/fun-box-account-api/fun-box-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/account/fun-box-account-mapper/fun-box-account-mapper.iml" filepath="$PROJECT_DIR$/domain/fun/account/fun-box-account-mapper/fun-box-account-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/account/fun-box-account-pojo/fun-box-account-pojo.iml" filepath="$PROJECT_DIR$/domain/fun/account/fun-box-account-pojo/fun-box-account-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/account/fun-box-account-service/fun-box-account-service.iml" filepath="$PROJECT_DIR$/domain/fun/account/fun-box-account-service/fun-box-account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/game/fun-box-game-api/fun-box-game-api.iml" filepath="$PROJECT_DIR$/domain/fun/game/fun-box-game-api/fun-box-game-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/game/fun-box-game-mapper/fun-box-game-mapper.iml" filepath="$PROJECT_DIR$/domain/fun/game/fun-box-game-mapper/fun-box-game-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/game/fun-box-game-pojo/fun-box-game-pojo.iml" filepath="$PROJECT_DIR$/domain/fun/game/fun-box-game-pojo/fun-box-game-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/game/fun-box-game-service/fun-box-game-service.iml" filepath="$PROJECT_DIR$/domain/fun/game/fun-box-game-service/fun-box-game-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-api/fun-box-lottery-api.iml" filepath="$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-api/fun-box-lottery-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-mapper/fun-box-lottery-mapper.iml" filepath="$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-mapper/fun-box-lottery-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-pojo/fun-box-lottery-pojo.iml" filepath="$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-pojo/fun-box-lottery-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-service/fun-box-lottery-service.iml" filepath="$PROJECT_DIR$/domain/fun/lottery/fun-box-lottery-service/fun-box-lottery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/order/fun-box-order-api/fun-box-order-api.iml" filepath="$PROJECT_DIR$/domain/fun/order/fun-box-order-api/fun-box-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/order/fun-box-order-mapper/fun-box-order-mapper.iml" filepath="$PROJECT_DIR$/domain/fun/order/fun-box-order-mapper/fun-box-order-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/order/fun-box-order-pojo/fun-box-order-pojo.iml" filepath="$PROJECT_DIR$/domain/fun/order/fun-box-order-pojo/fun-box-order-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/order/fun-box-order-service/fun-box-order-service.iml" filepath="$PROJECT_DIR$/domain/fun/order/fun-box-order-service/fun-box-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/search/fun-box-search-api/fun-box-search-api.iml" filepath="$PROJECT_DIR$/domain/fun/search/fun-box-search-api/fun-box-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/search/fun-box-search-mapper/fun-box-search-mapper.iml" filepath="$PROJECT_DIR$/domain/fun/search/fun-box-search-mapper/fun-box-search-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/search/fun-box-search-pojo/fun-box-search-pojo.iml" filepath="$PROJECT_DIR$/domain/fun/search/fun-box-search-pojo/fun-box-search-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/search/fun-box-search-service/fun-box-search-service.iml" filepath="$PROJECT_DIR$/domain/fun/search/fun-box-search-service/fun-box-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/user/fun-box-user-api/fun-box-user-api.iml" filepath="$PROJECT_DIR$/domain/fun/user/fun-box-user-api/fun-box-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/user/fun-box-user-mapper/fun-box-user-mapper.iml" filepath="$PROJECT_DIR$/domain/fun/user/fun-box-user-mapper/fun-box-user-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/user/fun-box-user-pojo/fun-box-user-pojo.iml" filepath="$PROJECT_DIR$/domain/fun/user/fun-box-user-pojo/fun-box-user-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/fun/user/fun-box-user-service/fun-box-user-service.iml" filepath="$PROJECT_DIR$/domain/fun/user/fun-box-user-service/fun-box-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/platform/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group.iml" filepath="$PROJECT_DIR$/group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/group-common/group-common.iml" filepath="$PROJECT_DIR$/common/group-common/group-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/group-task/group-task.iml" filepath="$PROJECT_DIR$/task/group-task/group-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/account/luck-shop-account-api/luck-shop-account-api.iml" filepath="$PROJECT_DIR$/domain/luck/account/luck-shop-account-api/luck-shop-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/account/luck-shop-account-mapper/luck-shop-account-mapper.iml" filepath="$PROJECT_DIR$/domain/luck/account/luck-shop-account-mapper/luck-shop-account-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/account/luck-shop-account-pojo/luck-shop-account-pojo.iml" filepath="$PROJECT_DIR$/domain/luck/account/luck-shop-account-pojo/luck-shop-account-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/account/luck-shop-account-service/luck-shop-account-service.iml" filepath="$PROJECT_DIR$/domain/luck/account/luck-shop-account-service/luck-shop-account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-api/luck-shop-center-stage-api.iml" filepath="$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-api/luck-shop-center-stage-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-mapper/luck-shop-center-stage-mapper.iml" filepath="$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-mapper/luck-shop-center-stage-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-pojo/luck-shop-center-stage-pojo.iml" filepath="$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-pojo/luck-shop-center-stage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-service/luck-shop-center-stage-service.iml" filepath="$PROJECT_DIR$/domain/luck/center/luck-shop-center-stage-service/luck-shop-center-stage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/order/luck-shop-order-api/luck-shop-order-api.iml" filepath="$PROJECT_DIR$/domain/luck/order/luck-shop-order-api/luck-shop-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/order/luck-shop-order-mapper/luck-shop-order-mapper.iml" filepath="$PROJECT_DIR$/domain/luck/order/luck-shop-order-mapper/luck-shop-order-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/order/luck-shop-order-pojo/luck-shop-order-pojo.iml" filepath="$PROJECT_DIR$/domain/luck/order/luck-shop-order-pojo/luck-shop-order-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/order/luck-shop-order-service/luck-shop-order-service.iml" filepath="$PROJECT_DIR$/domain/luck/order/luck-shop-order-service/luck-shop-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/user/luck-shop-user-api/luck-shop-user-api.iml" filepath="$PROJECT_DIR$/domain/luck/user/luck-shop-user-api/luck-shop-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/user/luck-shop-user-mapper/luck-shop-user-mapper.iml" filepath="$PROJECT_DIR$/domain/luck/user/luck-shop-user-mapper/luck-shop-user-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/user/luck-shop-user-pojo/luck-shop-user-pojo.iml" filepath="$PROJECT_DIR$/domain/luck/user/luck-shop-user-pojo/luck-shop-user-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/luck/user/luck-shop-user-service/luck-shop-user-service.iml" filepath="$PROJECT_DIR$/domain/luck/user/luck-shop-user-service/luck-shop-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/manager/manager-api/manager-api.iml" filepath="$PROJECT_DIR$/domain/manager/manager-api/manager-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/manager/manager-mapper/manager-mapper.iml" filepath="$PROJECT_DIR$/domain/manager/manager-mapper/manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/manager/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/domain/manager/manager-pojo/manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/manager/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/domain/manager/manager-service/manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/pay/payment-api/payment-api.iml" filepath="$PROJECT_DIR$/domain/pay/payment-api/payment-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/pay/payment-pojo/payment-pojo.iml" filepath="$PROJECT_DIR$/domain/pay/payment-pojo/payment-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/pay/payment-service/payment-service.iml" filepath="$PROJECT_DIR$/domain/pay/payment-service/payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/auth/user-auth-api/user-auth-api.iml" filepath="$PROJECT_DIR$/domain/auth/user-auth-api/user-auth-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/auth/user-auth-service/user-auth-service.iml" filepath="$PROJECT_DIR$/domain/auth/user-auth-service/user-auth-service.iml" />
+    </modules>
+  </component>
+</project>

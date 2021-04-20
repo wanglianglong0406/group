@@ -1,0 +1,44 @@
+############################################################
+#
+# web访问端口号  约定：10002
+#
+############################################################
+server:
+  port: 10003
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.41:3306/fun-box?serverTimezone=Asia/Shanghai&useSSL=false
+    username: hanye
+    password: HanYe@123456
+  redis:
+    database: 1
+    host: 192.168.0.61
+    port: 6379
+
+  zipkin:
+    base-url: http://192.168.0.61:9411/
+    locator:
+      discovery:
+        enabled: true
+      # 以HTTP上传数据到Zipkin
+      # WHY? bus依赖项导入了rabbitmq的依赖项，zipkin会默认使用mq
+    sender:
+      type: web
+    sleuth:
+      sampler:
+        probability: 1
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  security:
+#    enabled: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20000/eureka/
+

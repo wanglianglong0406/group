@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fun-box-order-api" />
+        <module name="manager-pojo" />
+        <module name="fun-box-game-api" />
+        <module name="manager-service" />
+        <module name="luck-shop-account-api" />
+        <module name="luck-shop-account-mapper" />
+        <module name="manager-api" />
+        <module name="luck-shop-account-service" />
+        <module name="luck-shop-order-mapper" />
+        <module name="eureka-server" />
+        <module name="luck-shop-center-stage-api" />
+        <module name="luck-shop-user-api" />
+        <module name="group-common" />
+        <module name="fun-box-game-mapper" />
+        <module name="fun-box-search-pojo" />
+        <module name="luck-shop-account-pojo" />
+        <module name="fun-box-user-mapper" />
+        <module name="luck-shop-user-pojo" />
+        <module name="payment-pojo" />
+        <module name="fun-box-user-api" />
+        <module name="fun-box-user-service" />
+        <module name="manager-mapper" />
+        <module name="fun-box-search-mapper" />
+        <module name="luck-shop-center-stage-pojo" />
+        <module name="luck-shop-user-mapper" />
+        <module name="fun-box-order-pojo" />
+        <module name="payment-api" />
+        <module name="fun-box-order-mapper" />
+        <module name="luck-shop-order-api" />
+        <module name="fun-box-lottery-mapper" />
+        <module name="luck-shop-order-pojo" />
+        <module name="luck-shop-user-service" />
+        <module name="fun-box-account-service" />
+        <module name="fun-box-account-pojo" />
+        <module name="fun-box-game-service" />
+        <module name="fun-box-lottery-pojo" />
+        <module name="fun-box-search-service" />
+        <module name="fun-box-lottery-service" />
+        <module name="user-auth-service" />
+        <module name="user-auth-api" />
+        <module name="luck-shop-center-stage-service" />
+        <module name="gateway-service" />
+        <module name="fun-box-user-pojo" />
+        <module name="fun-box-account-mapper" />
+        <module name="group-task" />
+        <module name="fun-box-lottery-api" />
+        <module name="fun-box-account-api" />
+        <module name="luck-shop-center-stage-mapper" />
+        <module name="fun-box-order-service" />
+        <module name="luck-shop-order-service" />
+        <module name="fun-box-game-pojo" />
+        <module name="fun-box-search-api" />
+        <module name="payment-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
+      <module name="fun-box-account-api" target="1.8" />
+      <module name="fun-box-account-mapper" target="1.8" />
+      <module name="fun-box-account-pojo" target="1.8" />
+      <module name="fun-box-account-service" target="1.8" />
+      <module name="fun-box-game-api" target="1.8" />
+      <module name="fun-box-game-mapper" target="1.8" />
+      <module name="fun-box-game-pojo" target="1.8" />
+      <module name="fun-box-game-service" target="1.8" />
+      <module name="fun-box-lottery-api" target="1.8" />
+      <module name="fun-box-lottery-mapper" target="1.8" />
+      <module name="fun-box-lottery-pojo" target="1.8" />
+      <module name="fun-box-lottery-service" target="1.8" />
+      <module name="fun-box-order-api" target="1.8" />
+      <module name="fun-box-order-mapper" target="1.8" />
+      <module name="fun-box-order-pojo" target="1.8" />
+      <module name="fun-box-order-service" target="1.8" />
+      <module name="fun-box-search-api" target="1.8" />
+      <module name="fun-box-search-mapper" target="1.8" />
+      <module name="fun-box-search-pojo" target="1.8" />
+      <module name="fun-box-search-service" target="1.8" />
+      <module name="fun-box-user-api" target="1.8" />
+      <module name="fun-box-user-mapper" target="1.8" />
+      <module name="fun-box-user-pojo" target="1.8" />
+      <module name="fun-box-user-service" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="group" target="1.8" />
+      <module name="group-common" target="1.8" />
+      <module name="group-task" target="1.8" />
+      <module name="luck-shop-account-api" target="1.8" />
+      <module name="luck-shop-account-mapper" target="1.8" />
+      <module name="luck-shop-account-pojo" target="1.8" />
+      <module name="luck-shop-account-service" target="1.8" />
+      <module name="luck-shop-center-stage-api" target="1.8" />
+      <module name="luck-shop-center-stage-mapper" target="1.8" />
+      <module name="luck-shop-center-stage-pojo" target="1.8" />
+      <module name="luck-shop-center-stage-service" target="1.8" />
+      <module name="luck-shop-order-api" target="1.8" />
+      <module name="luck-shop-order-mapper" target="1.8" />
+      <module name="luck-shop-order-pojo" target="1.8" />
+      <module name="luck-shop-order-service" target="1.8" />
+      <module name="luck-shop-user-api" target="1.8" />
+      <module name="luck-shop-user-mapper" target="1.8" />
+      <module name="luck-shop-user-pojo" target="1.8" />
+      <module name="luck-shop-user-service" target="1.8" />
+      <module name="manager-api" target="1.8" />
+      <module name="manager-mapper" target="1.8" />
+      <module name="manager-pojo" target="1.8" />
+      <module name="manager-service" target="1.8" />
+      <module name="payment-api" target="1.8" />
+      <module name="payment-pojo" target="1.8" />
+      <module name="payment-service" target="1.8" />
+      <module name="user-auth-api" target="1.8" />
+      <module name="user-auth-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

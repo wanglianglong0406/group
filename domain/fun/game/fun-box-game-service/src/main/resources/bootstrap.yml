@@ -1,0 +1,19 @@
+############################################################
+#
+# Eureka注册中心
+#
+############################################################
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:20000/eureka/
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.27.115.44:20000/eureka/
+  instance:
+    instance-id: ${erueka.instance.ip-address}:${server.port}
+    ip-address: 172.27.115.44
+    prefer-ip-address: true

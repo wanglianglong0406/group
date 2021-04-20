@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: luckshop-gateway
+  profiles:
+    active: prod
+
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            # 返回的资源共享给请求来源
+            allowed-origins:
+              - "http://localhost:8089"
+              - "http://www.xxx.com"
+              - "*"
+            # 比如cookie, authorization之类的认证信息
+            allow-credentials: true
+            allowed-headers: "*"
+            allowed-methods: "*"
+            expose-headers: "*"
+            # 表示Options可以在浏览器缓存多长时间
+            max-age: 600
+      #解决双重跨域 RETAIN_FIRST RETAIN_LAST RETAIN_UNIQUE
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials Vary, RETAIN_UNIQUE
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false

@@ -1,0 +1,16 @@
+package com.hy.account.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.hy.account.model.BankcardInfo;
+
+/**
+ * @Description: $- -$ #-->
+ * @Author: 寒夜
+ * @CreateDate: 2020/12/30 14:22
+ * @UpdateUser: 寒夜
+ * @UpdateDate: 2020/12/30 14:22
+ * @UpdateRemark: 修改内容
+ * @Version: 1.0
+ */
+public interface BankcardInfoMapper extends BaseMapper<BankcardInfo> {
+}

@@ -1,0 +1,110 @@
+############################################################
+#
+# web访问端口号  约定：10002
+#
+############################################################
+server:
+  port: 10004
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.41:3306/fun-box?serverTimezone=Asia/Shanghai&useSSL=false
+    username: hanye
+    password: HanYe@123456
+  redis:
+    database: 1
+    host: 192.168.0.61
+    port: 6379
+    #password: 123456
+
+  #消息驱动
+
+
+  zipkin:
+    base-url: http://192.168.0.61:9411/
+    locator:
+      discovery:
+        enabled: true
+      # 以HTTP上传数据到Zipkin
+      # WHY? bus依赖项导入了rabbitmq的依赖项，zipkin会默认使用mq
+    sender:
+      type: web
+    sleuth:
+      sampler:
+        probability: 1
+
+
+#Ribbon 全局配置
+#ribbon:
+#  ConnectTimeout: 1000
+#  ReadTimeout: 3000
+##Ribbo指定服务配置超时判定，优先级更高
+#fun-box-account-service:
+#  ribbon:
+#    ConnectTimeout: 1000
+#    ReadTimeout: 3000
+#    MaxAutoRetries: 1
+#    MaxAutoRetriesNextServer: 2
+#    OkToRetryOnAllOperations: true
+#
+## Feign的超时判定，优先级高于Ribbon
+#feign:
+#  hystrix:
+#    enabled: true
+#  client:
+#    config:
+#      # 全局默认配置
+#      default:
+#        connectTimeout: 1000
+#        readTimeout: 5000
+#      # 优先级比上面那伙计高
+#      foodie-account-service:
+#        connectTimeout: 1000
+#        readTimeout: 5000
+
+## 开启所有actuator-endpoint
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  #        include: health, info, xxxx
+  security:
+    enabled: false
+
+#hystrix:
+#  command:
+#    # 有的属性是默认值，写不写都行
+#    default:
+#      fallback:
+#        enabled: true
+#      circuitBreaker:
+#        enabled: true
+#        # 超过50%错误，那么开启熔断
+#        errorThresholdPercentage: 50
+#        # 5个request之后才进行统计
+#        requestVolumeThreshold: 5
+#        # 10秒之后进入半开状态
+#        sleepWindowInMilliseconds: 10000
+#        # forceClosed, forceOpen 强制关闭/开启熔断开关
+#      execution:
+#        timeout:
+#          enabled: true
+#        # 可以指定隔离方式是线程池还是信号量
+#        isolation:
+#          thread:
+#            interruptOnTimeout: true
+#            interruptOnFutureCancel: true
+#            timeoutInMilliseconds: 10000
+#      metrics:
+#        rollingStats:
+#          # 时间窗口统计
+#          timeInMilliseconds: 20000
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20000/eureka/

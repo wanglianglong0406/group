@@ -1,0 +1,19 @@
+server:
+  port: 10006
+
+spring:
+  application:
+    name: fun-box-auth-service
+  profiles:
+    active: dev
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false
